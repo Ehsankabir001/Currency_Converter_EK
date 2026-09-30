@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EK_CurrencyConverter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="main">
+        <p class="title">CURRENCY CONVERTER</p>
+        
+        <div class="part">
+            <label for="amount">Amount</label> <br>
+            <input  id="amount" type="number" placeholder="Enter Amount" required>
+        </div>
+        
+        <div class="part">
+            <label for="from_currency">From</label> <br>
+            <select id="from_currency"><option value="">Select currency</option></select>
+        </div>
+        
+        <div class="part">
+            <label for="to_currency">To</label> <br>
+             <select id="to_currency"><option value="">Select currency</option></select>
+        </div>
+
+        <button>Convert</button>
+
+        <div id="result"></div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
